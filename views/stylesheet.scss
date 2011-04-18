@@ -1,0 +1,10 @@
+$std_width: 960px;
+$std_font_size: 16px;
+
+
+body {
+	font-family: Lucida Grande, Verdana;
+	font-size:$std_font_size;
+	width: $std_width;
+	margin: auto;
+}
