@@ -68,4 +68,9 @@ var attachClickables = function() {
 }
 
 
-
+$(document).ready(function() {
+   	attachToggables();   
+	attachInitHiddens(); 
+	attachFormValidation(); 
+	attachClickables();
+});
